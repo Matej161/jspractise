@@ -1,0 +1,35 @@
+*{
+    user-select: none;
+    background-color: black;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#startButton{
+    border-radius: 100px;
+    font-size: 50px;
+    background-color: red;
+    color: white;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 15px;
+    padding-top: 15px;
+    border: white solid 2px;
+}
+
+#point{
+    width: 70px;
+    height: 70px;
+    background-color: rgb(255, 148, 166);
+    border: 5px solid red;
+    cursor: pointer;
+    border-radius: 100%;
+    position: absolute;
+    top: 250px;
+    left: 300px;
+    transition: 0.4s ease;
+    align-items: center;
+    justify-content: center;
+}
