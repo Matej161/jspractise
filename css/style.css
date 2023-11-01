@@ -1,11 +1,14 @@
 *{
     user-select: none;
     background-color: black;
+    /*background-image: url(/res/img/bckground.jpg);*/
 }
+html,
 body{
     display: flex;
     justify-content: center;
     align-items: center;
+    overflow: hidden;
 }
 #startButton{
     border-radius: 100px;
@@ -29,7 +32,17 @@ body{
     position: absolute;
     top: 250px;
     left: 300px;
-    transition: 0.4s ease;
+    transition: 2s ease;
+    display: flex;
     align-items: center;
     justify-content: center;
+    font-size: x-large;
+    color: black;
+}
+
+#timeInfo{
+    text-align: center;
+    font-size: 25px;
+    color: white;
+    right: 0;
 }
